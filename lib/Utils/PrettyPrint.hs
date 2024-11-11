@@ -1,4 +1,4 @@
-module PrettyPrint where
+module Utils.PrettyPrint where
 
 data Color = Black | Red | Green | Yellow | Blue | Magenta | Cyan | White
 

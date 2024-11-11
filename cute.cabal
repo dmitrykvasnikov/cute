@@ -59,7 +59,22 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  PrettyPrint
+    exposed-modules:  Types.AST
+                   ,  Types.Common
+                   ,  Types.Error
+                   ,  Types.Lexer
+                   ,  Types.Repl
+                   ,  Types.Parser
+                   ,  Lexer.Lexer
+                   ,  Lexer.Error
+                   ,  Parser.Parser
+                   ,  Parser.Statements
+                   ,  Parser.Expressions
+                   ,  Parser.Utils
+                   ,  Repl.Repl
+                   ,  Utils.Utils
+                   ,  Utils.PrettyPrint
+                   ,  Prim
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -69,6 +84,11 @@ library
 
     -- Other library packages from which modules are imported.
     build-depends:    base ^>=4.20.0.0
+                 ,    directory
+                 ,    exceptions
+                 ,    transformers
+                 ,    text
+                 ,    vector
 
     -- Directories containing source files.
     hs-source-dirs:   lib
@@ -92,6 +112,8 @@ executable cute
     -- Other library packages from which modules are imported.
     build-depends:
         base ^>=4.20.0.0,
+        transformers,
+        exceptions,
         cute
 
     -- Directories containing source files.

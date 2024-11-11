@@ -1,7 +1,6 @@
 module Main where
 
-import PrettyPrint
+import           Prim (runRepl)
 
 main :: IO ()
-main = do
-  putStrLn "CUTE Lang"
+main = runRepl

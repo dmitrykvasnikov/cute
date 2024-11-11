@@ -1,0 +1,163 @@
+
+./app/Main.hs,37
+module Main Main0,1
+main main2,3
+
+./dist-newstyle/build/x86_64-linux/ghc-9.10.1/cute-0.1.0.0/build/autogen/PackageInfo_cute.hs,163
+module PackageInfo_cute PackageInfo_cute3,4
+name name14,15
+version version16,17
+synopsis synopsis19,20
+copyright copyright21,22
+homepage homepage23,24
+
+./dist-newstyle/build/x86_64-linux/ghc-9.10.1/cute-0.1.0.0/build/autogen/Paths_cute.hs,1215
+module Paths_cute Paths_cute7,8
+catchIO catchIO24,25
+catchIO catchIO32,33
+version version34,35
+getDataFileName getDataFileName37,38
+getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir42,43
+getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir,getLibexecDir42,43
+getBinDir, getLibDir, getDynLibDir, getDataDir,getDataDir42,43
+getBinDir, getLibDir, getDynLibDir,getDynLibDir42,43
+getBinDir, getLibDir,getLibDir42,43
+getBinDir,getBinDir42,43
+bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir sysconfdir47,48
+bindir, libdir, dynlibdir, datadir, libexecdir,libexecdir47,48
+bindir, libdir, dynlibdir, datadir,datadir47,48
+bindir, libdir, dynlibdir,dynlibdir47,48
+bindir, libdir,libdir47,48
+bindir,bindir47,48
+libdir libdir49,50
+dynlibdir dynlibdir50,51
+datadir datadir51,52
+libexecdir libexecdir52,53
+sysconfdir sysconfdir53,54
+getBinDir getBinDir55,56
+getLibDir getLibDir56,57
+getDynLibDir getDynLibDir57,58
+getDataDir getDataDir58,59
+getLibexecDir getLibexecDir59,60
+getSysconfDir getSysconfDir60,61
+joinFileName joinFileName64,65
+pathSeparator pathSeparator72,73
+isPathSeparator isPathSeparator75,76
+
+./dist-newstyle/build/x86_64-linux/ghc-9.10.1/cute-0.1.0.0/x/cute/build/cute/autogen/PackageInfo_cute.hs,163
+module PackageInfo_cute PackageInfo_cute3,4
+name name14,15
+version version16,17
+synopsis synopsis19,20
+copyright copyright21,22
+homepage homepage23,24
+
+./dist-newstyle/build/x86_64-linux/ghc-9.10.1/cute-0.1.0.0/x/cute/build/cute/autogen/Paths_cute.hs,1215
+module Paths_cute Paths_cute7,8
+catchIO catchIO24,25
+catchIO catchIO32,33
+version version34,35
+getDataFileName getDataFileName37,38
+getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir42,43
+getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir,getLibexecDir42,43
+getBinDir, getLibDir, getDynLibDir, getDataDir,getDataDir42,43
+getBinDir, getLibDir, getDynLibDir,getDynLibDir42,43
+getBinDir, getLibDir,getLibDir42,43
+getBinDir,getBinDir42,43
+bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir sysconfdir47,48
+bindir, libdir, dynlibdir, datadir, libexecdir,libexecdir47,48
+bindir, libdir, dynlibdir, datadir,datadir47,48
+bindir, libdir, dynlibdir,dynlibdir47,48
+bindir, libdir,libdir47,48
+bindir,bindir47,48
+libdir libdir49,50
+dynlibdir dynlibdir50,51
+datadir datadir51,52
+libexecdir libexecdir52,53
+sysconfdir sysconfdir53,54
+getBinDir getBinDir55,56
+getLibDir getLibDir56,57
+getDynLibDir getDynLibDir57,58
+getDataDir getDataDir58,59
+getLibexecDir getLibexecDir59,60
+getSysconfDir getSysconfDir60,61
+joinFileName joinFileName64,65
+pathSeparator pathSeparator72,73
+isPathSeparator isPathSeparator75,76
+
+./lib/Repl.hs,81
+module Repl Repl0,1
+memory memory7,8
+runRepl runRepl10,11
+repl repl16,17
+
+./lib/Lexer.hs,24
+module Lexer Lexer0,1
+
+./lib/PrettyPrint.hs,789
+module PrettyPrint PrettyPrint0,1
+data Color Color2,3
+data Color = Black Black2,3
+data Color = Black | Red Red2,3
+data Color = Black | Red | Green Green2,3
+data Color = Black | Red | Green | Yellow Yellow2,3
+data Color = Black | Red | Green | Yellow | Blue Blue2,3
+data Color = Black | Red | Green | Yellow | Blue | Magenta Magenta2,3
+data Color = Black | Red | Green | Yellow | Blue | Magenta | Cyan Cyan2,3
+data Color = Black | Red | Green | Yellow | Blue | Magenta | Cyan | WhiteWhite2,3
+data Style Style4,5
+data Style = Bold Bold4,5
+data Style = Bold | Italic Italic4,5
+data Style = Bold | Italic | UnderlineUnderline4,5
+instance Show Show Color6,7
+  show show7,8
+instance Show Show Style16,17
+  show show17,18
+color color21,22
+style style24,25
+
+./lib/Utils.hs,39
+module Utils Utils0,1
+todo todo2,3
+
+./lib/Types/Repl.hs,252
+module Types.Repl Types.Repl0,1
+data Memory Memory8,9
+data Memory = Memory Memory8,9
+data Memory = Memory { source source8,9
+                     , lexerPos lexerPos9,10
+                     , parserPos parserPos10,11
+type Repl Repl13,14
+
+./lib/Types/Parser.hs,68
+module Types.Parser Types.Parser0,1
+type ParserPos ParserPos2,3
+
+./lib/Types/Error.hs,139
+module Types.Error Types.Error0,1
+data Error Error6,7
+data Error = LexerError LexerError6,7
+instance Exception Exception Error9,10
+
+./lib/Types/Lexer.hs,670
+module Types.Lexer Types.Lexer0,1
+type LexerPos LexerPos5,6
+type TokenPos TokenPos8,9
+data TokenKind TokenKind10,11
+data TokenKind = IntToken IntToken10,11
+data TokenKind = IntToken | PlusToken PlusToken10,11
+data TokenKind = IntToken | PlusToken | StarToken StarToken10,11
+data TokenKind = IntToken | PlusToken | StarToken | SemiColonToken SemiColonToken10,11
+data TokenKind = IntToken | PlusToken | StarToken | SemiColonToken | EOFTokenEOFToken10,11
+data Token Token12,13
+data Token = Token Token12,13
+data Token = Token { tokenKind tokenKind12,13
+                   , tokenPos tokenPos13,14
+                   , tokenValue tokenValue14,15
+
+./lib/Types/Common.hs,126
+module Types.Common Types.Common0,1
+type Line Line2,3
+type Col Col4,5
+type Length Length6,7
+type Message Message8,9
